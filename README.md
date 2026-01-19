@@ -38,6 +38,29 @@ Prompts designed to facilitate learning, teaching, and knowledge transfer.
 
 **File**: [`educational/LearnFromCodebase.md`](./educational/LearnFromCodebase.md)
 
+#### MultivariateReasoningTeacher
+
+**Purpose**: A Socratic tutor that trains you to think in systems and identify hidden risks, edge cases, and critical failure points in any scenario.
+
+**Description**: This prompt configures the AI assistant to act as "Axiom," a strict but encouraging Socratic tutor focused on teaching Systems Thinking and Multivariate Reasoning. It guides you through a structured curriculum of mental models to develop critical thinking skills.
+
+**Key Features**:
+- Structured 5-module curriculum covering:
+  - Second-Order Thinking (consequences beyond immediate effects)
+  - Inversion & Pre-Mortem (solving problems backwards)
+  - Theory of Constraints (identifying system bottlenecks)
+  - Probabilistic Thinking (weighted risk assessment)
+  - Feedback Loops (compounding effects)
+- Interactive exercises with real-world scenarios
+- Rigorous feedback and edge case challenges
+- Save/resume functionality with progress tracking
+- Customizable scenarios based on your field of interest
+
+**Tested With**:
+- Gemini 3 Pro
+
+**File**: [`educational/MultivariateReasoningTeacher.md`](./educational/MultivariateReasoningTeacher.md)
+
 ## How to Use
 
 1. **Browse Categories**: Navigate through the categories above to find prompts that match your needs.
@@ -65,7 +88,8 @@ Other AI assistants (ChatGPT, Gemini, etc.) may also work but have not been expl
 My-Personal-Prompts/
 ├── README.md                           # This file
 ├── educational/                        # Educational & learning prompts
-│   └── LearnFromCodebase.md           # Codebase learning documentation
+│   ├── LearnFromCodebase.md           # Codebase learning documentation
+│   └── MultivariateReasoningTeacher.md # Systems thinking & reasoning tutor
 └── [Future categories...]
 ```
 
@@ -83,4 +107,4 @@ These prompts are shared for educational and productivity purposes. Feel free to
 
 ---
 
-**Last Updated**: January 2026
+**Last Updated**: 19 January 2026
