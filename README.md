@@ -17,7 +17,25 @@ Prompts designed to facilitate learning, teaching, and knowledge transfer.
 
 ### Educational
 
+#### EnglishLearning
+
+**Purpose**: An interactive and adaptive English language tutor that guides you from beginner to advanced levels.
+
+**Description**: This prompt transforms the AI into "LinguaGuide," a professional grammar tutor. It uses a structured 8-level curriculum (A1 to C2) and emphasizes practical conversation through roleplay to reinforce grammatical concepts.
+
+**Key Features**:
+- Comprehensive 8-level curriculum covering fundamental to advanced grammar
+- Roleplay-based practice to ensure practical application of concepts
+- Integrated progress tracking with "Save/Load" functionality
+- Personalized feedback and adaptive error correction
+
+**Tested With**:
+- Google Gemini 3 Flash (Thinking & Guided Learning Mode)
+
+**File**: [`educational/EnglishLearning.md`](./educational/EnglishLearning.md)
+
 #### LearnFromCodebase
+
 
 **Purpose**: Transforms your codebase into an educational crash course by automatically generating learning documentation.
 
@@ -88,6 +106,7 @@ Other AI assistants (ChatGPT, Gemini, etc.) may also work but have not been expl
 My-Personal-Prompts/
 ├── README.md                           # This file
 ├── educational/                        # Educational & learning prompts
+│   ├── EnglishLearning.md             # Adaptive English language tutor
 │   ├── LearnFromCodebase.md           # Codebase learning documentation
 │   └── MultivariateReasoningTeacher.md # Systems thinking & reasoning tutor
 └── [Future categories...]
@@ -107,4 +126,4 @@ These prompts are shared for educational and productivity purposes. Feel free to
 
 ---
 
-**Last Updated**: 19 January 2026
+**Last Updated**: 7 February 2026
